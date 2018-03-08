@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>javascript demo</title>
+
+    <style>
+      .container {border:2px solid grey; background-color:#80ff80; margin: 20px; padding: 40px;}
+    </style>
+
+  </head>
+  <body>
+
+    <!-- BEGIN Javascript section-->
+    <script>
+    function addNumbers() {
+      // declare variables
+      var a,b,c;
+
+      // set variable values
+      a=Number(document.getElementById("number1").value);
+      b=Number(document.getElementById("number2").value);
+      c= a + b;
+
+      // print result
+      document.getElementById("addResult").value= c;
+    }
+
+    function printHello() {
+      var name=document.getElementById("name").value;
+      document.getElementById("printName").innerHTML= "Hello, " + name + "!";
+    }
+
+    </script>
+    <!-- END Javascript section-->
+
+    <!-- Name print section -->
+    <div class="container">
+      <h2>Print Name</h2>
+      <button id="printNameButton" onclick="printHello()">Print Hello</button>
+      <input placeholder="Enter Your Name!" type="text" id="name"></input>
+      <p id="printName"></p>
+    </div>
+
+    <!-- Number add section -->
+    <div class="container">
+      <h2>Add Numbers</h2>
+      <input type="number" id="number1"></input>
+      <input type="number" id="number2"></input>
+      <input disabled type="number" id="addResult"></input>
+      <button id="addButton" onclick="addNumbers()">Add Numbers</button>
+    </div>
+
+  </body>
+</html>
+
+

@@ -1,0 +1,32 @@
+
+body {
+  background-color: #f0f5f5;
+}
+
+.story-text strong {
+  color: #66004b;
+}
+
+.story-text h1 {
+  color: #008fb3;
+}
+
+.story-text {
+  color: #595959;
+  margin: 20px;
+  padding: 40px;
+  font-size: 1.4em;
+  font-family: Tahoma, Geneva, sans-serif;
+  line-height: 1.6;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  margin: 5px;
+  padding: 3px;
+  color: green;
+}
+

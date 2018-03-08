@@ -1,0 +1,24 @@
+{
+  "stories": [
+    {
+      "title":"Story Title 1",
+      "genericTitle":"Story Generic Title 1",
+      "content": [
+        "Story 1 Content with input: [input_item_1]"
+      ],
+      "parameters": [
+        {"placeholder":"[input_item_1]", "inputPrompt":"Enter Input"}
+      ]
+    },
+    {
+      "title":"Story Title 2",
+      "genericTitle":"Story Generic Title 2",
+      "content": [
+        "Story 2 Content with input: [input]"
+      ],
+      "parameters": [
+        {"placeholder":"[input]", "inputPrompt":"Enter Input"}
+      ]
+    }
+  ]
+}

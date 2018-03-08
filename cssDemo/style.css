@@ -1,0 +1,23 @@
+
+.pink {
+  color: #ff33cc;
+  text-align: center;
+}
+
+.border {
+  border: 2px solid blue;
+  border-radius: 7px;
+  background-color: yellow;
+  margin: 20px;
+  padding: 20px;
+  float: right;
+  width: 300px;
+  height: 300px;
+}
+
+li {
+  color: #3366ff;
+  font-size: 1.4em;
+  font-family: Tahoma, Geneva, sans-serif;
+  line-height: 1.6;
+}

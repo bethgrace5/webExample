@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>game demo</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <!-- File Input -->
+    <input type="file" id="file" />
+
+    <div>
+      <h3>Select a story!</h3>
+      <button id="story_1" class="hidden" onclick="runGame(0)"><span id="story_1_text"></span></button>
+      <br/>
+      <button id="story_2" class="hidden" onclick="runGame(1)"><span id="story_2_text"></span></button>
+      <br/>
+    </div>
+
+    <div class="story-text">
+
+      <!-- Story Title-->
+      <h1 id="story-title"></h1>
+
+      <!-- Story Text-->
+      <div id="story-text"></div>
+    </div>
+
+  </body>
+</html>
+
+
